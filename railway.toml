@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "echo 'Using PHP on Railway'"
+
+[start]
+cmd = "php -S 0.0.0.0:8080 -t ."
